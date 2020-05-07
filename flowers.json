@@ -1,0 +1,27 @@
+{
+    "intents": [
+        {"tag": "greeting",
+            "patterns": ["hi", "How are you", "Is anyone there?", "hello", "Good day"],
+            "responses": ["Hello, Good to see you again", "Hi there, how can I help?"],
+            "context_set": ""
+          },
+          {"tag": "flowers",
+            "patterns": ["need flowers","is flower available", "flower"],
+            "responses": ["yes we have, How much bouque do u want"],
+            "context_set": ""
+          },
+          {
+            "tag": "flower_set",
+            "patterns": ["need number bouque"],
+            "responses": ["Ok mam, Here is ur bouque"],
+            "context_set": ""
+          },
+          {
+            "tag": "goodbye",
+            "patterns": ["Thank you", "Bye"],
+            "responses": ["Visit again mam! Thank u"],
+            "context_set": ""
+
+          }
+    ]
+}

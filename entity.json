@@ -1,0 +1,12 @@
+{
+    "entity": [
+        {
+            "tag": "flower",
+            "value": ["rose", "lilly","lotus","jasmine"]
+          },
+          {
+            "tag": "number",
+            "value": ["one", "two","three","four"]
+          }
+    ]
+}

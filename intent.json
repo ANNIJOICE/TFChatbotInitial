@@ -1,0 +1,54 @@
+{
+    "intents": [
+        {"tag": "greeting",
+            "patterns": ["hi", "How are you", "Is anyone there?", "hello", "Good day"],
+            "responses": ["Hello, Good to see you again", "Hi there, how can I help?"],
+            "context_set": ""
+          },
+          {"tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "exit"],
+            "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+          },
+          {"tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+          },
+          {"tag": "hours",
+            "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+            "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+          },
+          {"tag": "parking",
+            "patterns": ["is parking available", "parking", "is there any parking " ],
+            "responses": ["we have parking in all our restaurant"]
+          },
+          {"tag": "payments",
+            "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+            "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+          },
+          {"tag": "opentoday",
+            "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+            "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+          },
+          {"tag": "menu",
+            "patterns": ["show items", "menu card", "list the food items available","available food", "special dishes" ],
+            "responses": ["Here is our menu comes....."],
+            "context_set": ""
+          },
+          {"tag": "place_order",
+            "patterns": ["I like to place order","want to place order", "want to order some food", "please make order", "order"],
+            "responses": ["kindly choose our restaurant in swiggy or zomato and place order, or visit our nearest restaurant"],
+            "context_filter": ""
+          },{
+            "tag": "my work",
+            "patterns": ["what can you do for me", "your role", "purpose of you"],
+            "responses": ["i am here to help you. you can ask me a question like,'show menu card', 'special dish available in ur restaurant', etc.. "],
+            "context_filter": ""
+          },
+        {
+            "tag": "bot details",
+            "patterns": ["what about you", "tell me about you", "about you", "who are you"],
+            "responses": ["I am your personal chatbot, I am here to help"],
+            "context": ""
+        }
+    ]
+}
